@@ -1,0 +1,9 @@
+
+
+nc: 10
+
+backbone:
+  - [-1, 1, TorchVision, [512, resnet18, DEFAULT, True, 2]]
+
+head:
+  - [-1, 1, Classify, [nc]]

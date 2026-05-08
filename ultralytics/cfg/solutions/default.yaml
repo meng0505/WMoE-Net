@@ -1,0 +1,16 @@
+
+
+region:
+show_in: True
+show_out: True
+
+colormap:
+
+up_angle: 145.0
+down_angle: 90
+kpts: [6, 8, 10]
+
+analytics_type: "line"
+json_file:
+
+records: 5
