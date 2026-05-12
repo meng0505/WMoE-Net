@@ -6,14 +6,6 @@ WMoE-Net is an alignment-gating-fusion framework for oriented ship detection fro
 
 The method builds on Ultralytics YOLO and introduces wavelet-directed cross-attention alignment (WCAM), condition-informed quality mixture-of-experts fusion (CIQ-MoE), a condition-informed quality gating network (CIQGN), and a mutually-guided consistency-aware fusion expert (MCFM).
 
-## Highlights
-
-- Dual-stream SAR-optical feature extraction for paired remote-sensing images
-- WCAM for local cross-modal alignment under residual registration offsets
-- CIQ-MoE with CIQGN for sparse, condition-adaptive modality routing
-- MCFM for consistency-guided collaborative feature refinement
-- OBB detection head for oriented ship localization
-- Representative baseline and ablation YAML files in `ultralytics/cfg/models/fuse`
 
 ## Dataset
 
